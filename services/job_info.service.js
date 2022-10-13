@@ -7,14 +7,14 @@ exports.createjobsService = async (data) => {
 
 
 exports.getjobssService = async () => {
-  const brands = await Jobs.find({}).select('-status');
-  return brands;
+  const result = await Jobs.find({}).select('-status');
+  return result;
 }
 
 
 exports.getjobsByIdService = async (id) => {
-  const brand = await Jobs.findOne({ _id: id });
-  return brand;
+  const result = await Jobs.findOne({ _id: id });
+  return result;
 }
 
 
