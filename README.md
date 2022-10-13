@@ -2,9 +2,9 @@
 
 ## All instruction
 ### Hiring Manager
-* POST http://localhost:5000/api/manager/jobs
 * GET http://localhost:5000/api/manager/jobs
 * GET http://localhost:5000/api/manager/jobs:id
+* POST http://localhost:5000/api/manager/jobs
 * PATCh http://localhost:5000/api/manager/jobs
 
 ### Candidate routes
